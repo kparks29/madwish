@@ -1,0 +1,59 @@
+/******************************
+          Page Style
+******************************/
+div {
+  width: 100%;
+  height: 100%;
+}
+
+
+/******************************
+          Navbar
+******************************/
+
+
+
+nav, nav ul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+}
+
+nav ul {
+  top: 2%;
+  padding: 0;
+}
+
+nav ul li:first-of-type {
+  margin-left: 20%;
+}
+
+nav ul li{
+  display: inline;
+  margin-left: 7%;
+}
+
+
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+nav img {
+  position: fixed;
+  top: 0.5%;
+  left: 2%;
+  width: 10%;
+  height: 15%;
+}
+
+/******************************
+          Mission
+******************************/
