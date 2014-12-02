@@ -15,7 +15,7 @@ body {
 ******************************/
 
 #home {
-  margin-top: 10%;
+  /*margin-top: 10%;*/
 }
 
 #home video {
@@ -109,11 +109,57 @@ nav img {
   border: 0;
 }
 
-#stats {
+#team h1 {
+  font-size: 42;
+}
+
+#info {
   height: 60%;
   width: 80%;
-  background-color: blue;
+  /*background-color: blue;*/
   margin: 0 auto;
+}
+
+#stats, #about {
+  height: 100%;
+  width: 34%;
+  /*background-color: gray;*/
+  float: left;
+  position: relative;
+}
+
+#character {
+  height: 100%;
+  width: 30%;
+  float: left;
+  position: relative;
+}
+
+#about {
+  float: right;
+  text-align: left;
+}
+
+#about h2 {
+  position: absolute;
+  top: 8%;
+  left: 4%;
+  z-index: 2;
+}
+
+#about img {
+  position: absolute;
+  top: 2%;
+  right: 5%;
+  width: 40%;
+}
+
+#about p {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  width: 90%;
+  z-index: 2;
 }
 
 #players {
@@ -138,6 +184,10 @@ nav img {
   margin-left: 3%;
 }
 
+#team .player:hover {
+  border-color: cyan;
+}
+
 
 #matt {
   background-image: url(../assets/images/matt.png);
@@ -159,6 +209,12 @@ nav img {
   background-image: url(../assets/images/kendrick.png);
 }
 
+#random {
+  background-image: url(../assets/images/BlankAvatarBlack.png);
+}
 
+#team .active {
+  border-color: cyan;
+}
 
 
