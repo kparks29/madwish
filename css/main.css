@@ -7,7 +7,7 @@ div {
 }
 
 body {
-  /*background-color: #000;*/
+  text-align: justify;
 }
 
 /******************************
@@ -83,6 +83,7 @@ nav #logo {
 #mission p {
   margin: 0 auto;
   width: 50%;
+  text-align: justify;
 }
 
 #mission img {
@@ -222,7 +223,7 @@ nav #logo {
 
 #about {
   float: right;
-  text-align: left;
+  text-align: justify;
 }
 
 #about h2 {
@@ -326,7 +327,7 @@ nav #logo {
 }
 
 #origin h2 {
-  font-size: 54;
+  font-size: 35;
   margin-bottom: 0;
 }
 
@@ -335,6 +336,9 @@ nav #logo {
   float: right;
   margin-right: 10%;
 }
+
+
+
 
 #origin > div {
   width: 100%;
