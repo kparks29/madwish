@@ -297,6 +297,54 @@ nav #logo {
   border-color: cyan;
 }
 
+/******************************
+          SERVICES
+******************************/
 
-
-
+#services {
+  position:relative;
+  width: 100%;
+  
+}
+#services hr {
+  height: 10px;
+  background-color: black;
+  margin: 0;
+  border: 0;
+}
+#services h1 {
+  text-align: center;
+}
+.text360{
+  position: absolute;
+  width:25%;
+  height:100px;
+  left: 55%;
+  top:30%;
+  
+}
+.image360{
+  background-image: url(../assets/images/360stereo.png);
+  position: absolute;
+  background-size: 100% 100%;
+  width:25%;
+  height:100px;
+  left:10%;
+  top:30%;
+}
+.imageVrExp  {
+  background-image: url(../assets/images/ghostbusters.png);
+  position: absolute;
+  background-size: 100% 100%;
+  width:25%;
+  height:245px;
+  top: 70%;
+  left:55%;
+}
+.textVrExp{
+  position: absolute;
+  width:25%;
+  height:100px;
+  top:70%;
+  left:15%;
+}
