@@ -62,12 +62,9 @@ nav a:hover {
   color: blue;
 }
 
-nav img {
+nav #logo {
   position: fixed;
-  top: 0.5%;
   left: 2%;
-  width: 10%;
-  height: 15%;
 }
 
 /******************************
@@ -197,6 +194,25 @@ nav img {
   position: relative;
 }
 
+#character #labStuff {
+  background-image: url(../assets/images/labstuff.png);
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+#character #characterImage {
+  background-image: url(../assets/images/mattFullBody.png);
+  background-size: 100% 100%;
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
+
 #about {
   float: right;
   text-align: left;
@@ -229,6 +245,8 @@ nav img {
   width: 80%;
   background-color: black;
   margin: 0 auto;
+  position: relative;
+  z-index: 4;
 }
 
 #team .player {

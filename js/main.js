@@ -9,9 +9,13 @@ $(document).ready(function(){
   ******************************/
 
   $(document).scroll(function(e){
-    if ($(document).scrollTop() >= $("#mission").offset().top - $("nav").height()) {
+    if ($(document).scrollTop() >= $("#mission").offset().top - $("nav").height() - 20) {
       $("nav").css("background-color", "black");
-      nav.css("color", "white");
+      $("nav ul li a").css("color", "white");
+    }
+    else {
+      $("nav").css("background-color", "rgba(0,0,0,0)");
+      $("nav ul li a").css("color", "black");
     }
   });
 
