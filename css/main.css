@@ -35,6 +35,7 @@ nav, nav ul {
   left: 0;
   width: 100%;
   height: 10%;
+  z-index: 10;
 }
 
 nav ul {
@@ -303,7 +304,7 @@ nav #logo {
 
 #services {
   position:relative;
-  width: 100%;
+  height: 200%;
   
 }
 #services hr {
@@ -317,34 +318,64 @@ nav #logo {
 }
 .text360{
   position: absolute;
-  width:25%;
-  height:100px;
-  left: 55%;
-  top:30%;
+  width:30%;
+  height:20%;
+  left:55%;
+  top:15%;
+  text-align: justify;
   
 }
 .image360{
   background-image: url(../assets/images/360stereo.png);
   position: absolute;
   background-size: 100% 100%;
-  width:25%;
-  height:100px;
-  left:10%;
-  top:30%;
+  width:30%;
+  height:20%;
+  left:15%;
+  top:15%;
+  z-index:2;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 .imageVrExp  {
   background-image: url(../assets/images/ghostbusters.png);
   position: absolute;
   background-size: 100% 100%;
-  width:25%;
-  height:100;
-  top: 70%;
+  width:30%;
+  height:20%;
+  top: 45%;
   left:55%;
+  z-index:2;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 .textVrExp{
   position: absolute;
-  width:25%;
-  height:100px;
-  top:70%;
+  width:30%;
+  height:20%;
+  top:45%;
   left:15%;
+  text-align: justify;
+ 
+}
+.imageSmartToy{
+  background-image: url(../assets/images/arduinoheadgear.png);
+  position: absolute;
+  background-size: 100% 100%;
+  width:30%;
+  height:20%;
+  top: 75%;
+  left:15%;
+  z-index:2;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.textSmartToy{
+  position: absolute;
+  width:30%;
+  height:20%;;
+  top:75%;
+  left:55%;
+  text-align: justify;
+    
 }
