@@ -5,11 +5,11 @@
   $phone = $_POST["phone"];
   $email = $_POST["email"];
 
-  $to      = 'parks.kendrick@gmail.com';
-  $subject = "Sponsor Request from " . $name ;
-  $message = "Sponsor Message: \r" . $body . "\rPhone Number: " . $phone;
-  $header = "To: Meesh <michel@orangecountyvr.com>, Dylan <dylan@orangecountyvr.com>\r\n";
-  $header.= "From: SponsorPage <info@madwishlabs.com>\r\n"; 
+  $to      = 'dylanwatkins@gmail.com';
+  $subject = "MadWish Contact form from " . $name ;
+  $message = "Contact Message: \r" . $body . "\rPhone Number: " . $phone;
+  $header = "To: Meesh <michelhaddad7@gmail.com>, Dylan <dylanwatkins@gmail.com>\r\n";
+  $header.= "From: MadWishContactForm <info@madwishlabs.com>\r\n"; 
   $header.= "MIME-Version: 1.0\r\n"; 
   $header.= "Content-Type: text/plain; charset=utf-8\r\n"; 
   $header.= "X-Priority: 1\r\n"; 
