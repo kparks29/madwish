@@ -128,6 +128,68 @@ nav img {
   position: relative;
 }
 
+#team .stat {
+  text-align: left;
+  padding: 10px 0 0 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 30px;
+  color: white;
+  border-radius: 15px;
+  background-color: black;
+}
+
+#team ul {
+  padding: 0;
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  width: 90%;
+}
+
+#team ul li span {
+  float: right;
+  margin-right: 10px;
+}
+#team ul li span span{
+  margin-right: 0;
+}
+
+#team ul li span .rating {
+  color: yellow;
+}
+
+
+#playerSelectBox div {
+  background-color: black;
+  height: 15px;
+  position: absolute;
+}
+
+#playerSelectBox span {
+  color: yellow;
+  font-weight: bold;
+  position: absolute;
+  z-index: 2;
+  bottom: 10px;
+  left: 27%;
+}
+
+#playerSelectBox div:first-of-type {
+  width: 50%;
+  left: 25%;
+  bottom: 30px;
+}
+#playerSelectBox div:nth-of-type(2) {
+  width: 75%;
+  left: 12.5%;
+  bottom: 15px;
+}
+#playerSelectBox div:last-of-type {
+  width: 100%;
+  bottom: 0;
+}
+
 #character {
   height: 100%;
   width: 30%;
@@ -216,5 +278,7 @@ nav img {
 #team .active {
   border-color: cyan;
 }
+
+
 
 
