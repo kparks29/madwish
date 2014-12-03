@@ -9,7 +9,7 @@ var team = [{
   type: "Paladin",
   image: "./assets/images/mattFullBody.png",
   logo: "./assets/images/paladin.png",
-  info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},
+  info: "I am a paladin. A warrior of the light, I can be on the front lines absorbing damage for the team or heal the team through conflict resolution"},
   {name: "Dylan Watkins",
   stats: [
     {name: "Design", rating: 3}, 
@@ -20,7 +20,7 @@ var team = [{
   type: "Druid",
   image: "./assets/images/FullBodyDylan.png",
   logo: "./assets/images/druid.png",
-  info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},
+  info: "As a master of shape shifting Druids can take on any form of beast that suits the situation. In this way I find myself performing whatever rolls are necessary to complete the project for the team"},
   {name: "Arman Bastani",
   stats: [
     {name: "M2M Communication", rating: 5}, 
@@ -31,7 +31,7 @@ var team = [{
   type: "Mage",
   image: "./assets/images/armanFullBody.png",
   logo: "./assets/images/mage.png",
-  info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},
+  info: "Students gifted with a keen intellect and unwavering discipline may walk the path of the mage. Testing the limits of what’s possible with magic (or technology) a magi is both great and dangerous, and thus is revealed only to the most devoted practitioners"},
   {name: "Michel Haddad",
   stats: [
     {name: "Aspect of the Pack", rating: 5}, 
@@ -42,7 +42,7 @@ var team = [{
   type: "Hunter",
   image: "./assets/images/FullBodyMichel.png",
   logo: "./assets/images/hunter.png",
-  info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},
+  info: "From an early age the call of the wild draws some adventurers from the comfort of their homes into the unforgiving primal world outside. Those who endure become hunters. Masters of their environment, they are able to slip like ghosts through the trees and lay traps in the paths of their enemies"},
   {name: "Kendrick Parks",
   stats: [
     {name: "Lock Picking", rating: 3}, 
@@ -53,7 +53,7 @@ var team = [{
   type: "Rogue",
   image: "./assets/images/kenFullBody.png",
   logo: "./assets/images/rogue.png",
-  info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+  info: "I am a rogue and rogues are known for being a lone wolf, but when they find a team worthy enough to join, like the team we have now, they will fully dedicate themselves to the betterment of the team"}
 ];
 
 $(document).ready(function(){
