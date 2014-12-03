@@ -167,12 +167,12 @@ nav img {
 }
 
 #playerSelectBox span {
-  color: yellow;
+  color: white;
   font-weight: bold;
   position: absolute;
   z-index: 2;
   bottom: 10px;
-  left: 27%;
+  left: 33%;
 }
 
 #playerSelectBox div:first-of-type {
