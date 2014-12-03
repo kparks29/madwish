@@ -35,6 +35,7 @@ nav, nav ul {
   left: 0;
   width: 100%;
   height: 10%;
+  z-index: 10;
 }
 
 nav ul {
@@ -139,7 +140,7 @@ nav #logo {
 #team ul {
   padding: 0;
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   left: 0;
   width: 90%;
 }
@@ -156,6 +157,10 @@ nav #logo {
   color: yellow;
 }
 
+#playerSelectBox {
+  position: relative;
+  z-index: 2;
+}
 
 #playerSelectBox div {
   background-color: black;
@@ -197,10 +202,12 @@ nav #logo {
 #character #labStuff {
   background-image: url(../assets/images/labstuff.png);
   background-size: 100% 100%;
-  height: 100%;
-  width: 100%;
+  height: 40%;
+  width: 200%;
   position: absolute;
-  bottom: 0;
+  bottom: -20px;
+  z-index: 1;
+  left: -35%;
 }
 
 #character #characterImage {
@@ -235,7 +242,7 @@ nav #logo {
 #about p {
   position: absolute;
   bottom: 10%;
-  left: 5%;
+  left: 12%;
   width: 90%;
   z-index: 2;
 }
