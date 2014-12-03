@@ -506,3 +506,39 @@ nav #logo {
   top:70%;
   left:15%;
 }
+
+
+
+/******************************
+          Contact
+******************************/
+
+#contact hr {
+  height: 10px;
+  background-color: black;
+  margin: 0;
+  border: 0;
+}
+
+#contact h1 {
+  text-align: center; 
+  font-size: 42;
+}
+
+#contact form {
+  width: 50%;
+  margin: 10% auto;
+  margin-bottom: 50px;
+}
+
+#contact .form-group {
+  height: 5%;
+  width: 100%;
+}
+
+#contact .form-group:nth-of-type(4) {
+  height: 20%;
+}
+
+
+
