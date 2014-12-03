@@ -18,7 +18,7 @@ var team = [{
     {name: "Flag Carrier", rating: 4}
   ], 
   type: "Druid",
-  image: "./assets/images/FullBodyDylan.png",
+  image: "./assets/images/fullBodyDylan.png",
   logo: "./assets/images/druid.png",
   info: "As a master of shape shifting Druids can take on any form of beast that suits the situation. In this way I find myself performing whatever rolls are necessary to complete the project for the team"},
   {name: "Arman Bastani",
@@ -69,6 +69,7 @@ $(document).ready(function(){
   $(document).scroll(function(e){
     if ($(document).scrollTop() >= $("#mission").offset().top - $("nav").height() - 20) {
       $("nav").css("background-color", "black");
+      $("nav").attr("newProp", "test");
       $("nav ul li a").css("color", "white");
     }
     else {
