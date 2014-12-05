@@ -62,6 +62,9 @@ $(document).ready(function(){
           Page
   ******************************/
 
+  document.getElementsByTagName("video")[0].volume = 0;
+  
+
   /******************************
           Navbar
   ******************************/
@@ -70,11 +73,59 @@ $(document).ready(function(){
     if ($(document).scrollTop() >= $("#mission").offset().top - $("nav").height() - 20) {
       $("nav").css("background-color", "black");
       $("nav").attr("newProp", "test");
-      $("nav ul li a").css("color", "white");
     }
     else {
-      $("nav").css("background-color", "rgba(0,0,0,0)");
-      $("nav ul li a").css("color", "black");
+      $("nav").css("background-color", "rgba(0,0,0,0.6)");
+    }
+  });
+
+  $("#homeNav").click(function(){
+    $("html, body").animate({
+      scrollTop: $("#home").offset().top
+    }, 500);
+  })
+  $("#missionNav").click(function(){
+    $("html, body").animate({
+      scrollTop: $("#mission").offset().top
+    }, 500);
+  })
+  $("#teamNav").click(function(){
+    $("html, body").animate({
+      scrollTop: $("#team").offset().top
+    }, 500);
+  })
+  $("#originNav").click(function(){
+    $("html, body").animate({
+      scrollTop: $("#origin").offset().top
+    }, 500);
+  })
+  $("#servicesNav").click(function(){
+    $("html, body").animate({
+      scrollTop: $("#services").offset().top
+    }, 500);
+  })
+  $("#contactNav").click(function(){
+    $("html, body").animate({
+      scrollTop: $("#contact").offset().top
+    }, 500);
+  })
+
+  /******************************
+          Home
+  ******************************/
+
+  $("#home img").click(function(){
+    var video = document.getElementsByTagName("video")[0];
+    if (!video.paused) {
+      $("#home > div").css("visibility", "hidden");
+      $("#home > img").css("visibility", "hidden");
+      $("#home > div > div:first-of-type").css("visibility", "hidden");
+      video.volume = 1
+      video.currentTime = 0;
+      video.play();
+    }
+    else {
+      video.pause();
     }
   });
 
